@@ -1,0 +1,125 @@
+body ,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./imagenes/fondomesa.jpg);
+    background-size: cover;
+}
+
+.box-celular{
+    height: 79%;
+    width: 20%;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgb(0, 0, 0) 10px 10px 12px 12px;
+}
+.contenido-celular{
+    height: 95%;
+    width: 90%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(./imagenes/fondodesierto.png);
+    background-position: center;
+    background-size: cover;
+    border: solid black 15px;
+}
+.barraSuperior-celular{
+    height: 30px;
+    width: 60%;
+    border-radius: 0 0 30px 30px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.audio{
+    height: 15px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: rgb(103, 103, 103);
+}
+.camara{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(103, 103, 103);
+}
+button{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.imagen-button{
+    width: 40px;
+}
+.inconos-celular{
+    height: 20px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(253, 253, 253);
+}
+#app-celular{
+    height: 85%;
+    width: 100%;
+}
+
+.reloj-celular{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.buscador-celular{
+    width: 80%;
+    height: 10%;
+    margin-top: 25px;
+    border: none;
+}
+.buscador2-celular{
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-image: url(./imagenes/busqueda.png);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.app{
+    position: absolute;
+    height: 50px;
+    width: 18%;
+    bottom: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    width: 55px;
+    cursor: pointer;
+
+}
